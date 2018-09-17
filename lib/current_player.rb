@@ -14,6 +14,6 @@ end
 def current_player(board)
  if turn_count.to_i.even?
   return "X"
-else return "O"
+ else return "O"
 end
 end
